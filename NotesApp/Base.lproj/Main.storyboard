@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Notes-->
+        <!--🍜Evening!!🍱-->
         <scene sceneID="scw-uy-l7E">
             <objects>
                 <tableViewController id="cTH-4P-uHq" customClass="TableTableViewController" customModule="NotesApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,10 +21,10 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTg-l5-ul0">
-                                    <rect key="frame" x="359" y="0.0" width="45" height="44"/>
+                                    <rect key="frame" x="364" y="4" width="40" height="40"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="45" id="RWc-by-bm0"/>
-                                        <constraint firstAttribute="height" constant="50" id="bbh-8e-E87"/>
+                                        <constraint firstAttribute="width" constant="40" id="RWc-by-bm0"/>
+                                        <constraint firstAttribute="height" constant="40" id="bbh-8e-E87"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                     <state key="normal" image="addSign"/>
@@ -48,7 +48,6 @@
                                 <constraint firstAttribute="trailing" secondItem="aTg-l5-ul0" secondAttribute="trailing" constant="10" id="C1j-Ub-znO"/>
                                 <constraint firstAttribute="bottom" secondItem="5b2-FR-bnR" secondAttribute="bottom" id="GUw-jr-mNt"/>
                                 <constraint firstItem="5b2-FR-bnR" firstAttribute="top" secondItem="QpZ-ge-VRX" secondAttribute="top" id="T7q-dS-rEC"/>
-                                <constraint firstItem="aTg-l5-ul0" firstAttribute="top" secondItem="QpZ-ge-VRX" secondAttribute="top" id="zQL-T5-30v"/>
                                 <constraint firstAttribute="bottom" secondItem="aTg-l5-ul0" secondAttribute="bottom" id="zmb-im-B8B"/>
                             </constraints>
                         </view>
@@ -93,7 +92,7 @@
                             <outlet property="delegate" destination="cTH-4P-uHq" id="92X-tk-iCL"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Notes" id="Kp1-ei-2Ei"/>
+                    <navigationItem key="navigationItem" title="🍜Evening!!🍱" id="Kp1-ei-2Ei"/>
                     <connections>
                         <segue destination="l9C-DC-exP" kind="show" identifier="toDetail" id="gxY-6W-tGT"/>
                     </connections>
@@ -163,7 +162,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Title" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EfW-AD-0jb">
-                                <rect key="frame" x="20" y="180" width="374" height="40"/>
+                                <rect key="frame" x="20" y="128" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Tyh-RQ-5BK"/>
                                 </constraints>
@@ -172,7 +171,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WxP-ic-nyg">
-                                <rect key="frame" x="40" y="260" width="334" height="562"/>
+                                <rect key="frame" x="40" y="208" width="334" height="614"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -207,9 +206,10 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tE6-pj-AQ4" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="GqQ-ns-Gia">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GqQ-ns-Gia">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.97254901960784312" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

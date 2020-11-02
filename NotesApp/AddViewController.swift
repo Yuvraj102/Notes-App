@@ -21,8 +21,11 @@ class AddViewController: UIViewController {
             
           return
         }
-        loadManager.save()
-        delegate.passData(title: title, body: body)
+        if title != "" && body != "" {
+            loadManager.save()
+            delegate.passData(title: title, body: body)
+        }
+        
     }
     
     override func viewDidLoad() {
